@@ -41,10 +41,10 @@ CORS_ALLOWED_ORIGINS = [
 
 # We'll add your Vercel URL here after deployment.
 # Example:
-# CORS_ALLOWED_ORIGINS = [
-#     "http://localhost:5173",
-#     "https://your-frontend.vercel.app",
-# ]
+CORS_ALLOWED_ORIGINS = [
+     "http://localhost:5173",
+     "https://hospitalmonitoringsystem.vercel.app",
+]
 
 
 MIDDLEWARE = [

@@ -31,7 +31,7 @@ const Signup = () => {
         try {
 
             const response = await fetch(
-                "http://127.0.0.1:8000/api/signup/",
+                "https://hospital-monitoring-system-backend.onrender.com/api/signup/",
                 {
                     method: "POST",
 
